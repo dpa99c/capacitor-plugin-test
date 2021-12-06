@@ -17,9 +17,10 @@ class CapacitorPluginTestTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
 
         let implementation = CapacitorPluginTest()
+        let prefix = "[iOS platform]: "
         let value = "Hello, World!"
         let result = implementation.echo(value)
 
-        XCTAssertEqual(value, result)
+        XCTAssertEqual(prefix+value, result)
     }
 }
