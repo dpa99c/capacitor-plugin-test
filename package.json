@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/davealden_altcom/capacitor-plugin-test.git"
+    "url": "git+https://github.com/dpa99c/capacitor-plugin-test.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/davealden_altcom/capacitor-plugin-test/issues"
+    "url": "https://github.com/dpa99c/capacitor-plugin-test/issues"
   },
   "keywords": [
     "capacitor",
