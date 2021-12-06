@@ -11,13 +11,9 @@ public class CapacitorPluginTestPlugin extends Plugin {
 
     private CapacitorPluginTest implementation = new CapacitorPluginTest();
 
-    private String prefix = "[Android platform]: ";
-
     @PluginMethod
     public void echo(PluginCall call) {
         String value = call.getString("value");
-        value = prefix.concat(value);
-
         JSObject ret = new JSObject();
         ret.put("value", implementation.echo(value));
         call.resolve(ret);
